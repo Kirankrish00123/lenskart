@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="logo">
+        <a href="https://www.lenskart.com/about-us.html"><img src="img/lenskart-seeklogo.com.svg" alt=""></a>
+
+    </header>
+    
+    <a href="registration1.html"><button id="signup" >SignUp</button></a>
+    <div class="container">
+        <div class="form-log">
+            <img src="img/loginn.svg" class="hero" alt="hero">
+            <form action="index.html" name="loginform">
+             <div class="log">
+                    <img src="img/avat.svg" class="avatar" alt="">
+                    <h2>Welcome</h2>
+                    <div class="col-md-4 mb-3">
+                        <input type="text" class="form-control" id="validationDefault01" placeholder="Username" minlength="3"
+                          required>
+                      </div>
+                <div class="password">
+                    <input type="password" name="pwd" placeholder="Password" minlength="6" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Pwd must contains atleast on symbol and number" required>
+                </div> 
+                <div class="for-pass">
+                   <a href="#">  Forgot Password?</a>
+                </div>
+                <button class="btn"  value="Login" onsubmit="validateForm();">Login</button>
+             </div>
+            </form>
+            <div class="media">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+        </div>
+        </div>
+        </div>
+        </div>
+</body>
+</html>
